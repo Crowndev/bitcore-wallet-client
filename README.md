@@ -1,5 +1,5 @@
-bitcore-payment-protocol-crown
-==============================
+bitcore-wallet-client-crown
+===========================
 
 This package is under development. Please do not download.
 
