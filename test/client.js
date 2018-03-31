@@ -494,7 +494,7 @@ describe('client API', function() {
           version: '2.0.0',
           inputs: utxos,
           toAddress: toAddress,
-          amount: 1200,
+          amount: 5460,
           changeAddress: {
             address: changeAddress
           },
@@ -512,7 +512,7 @@ describe('client API', function() {
         var t2 = new Bitcore.Transaction(t);
         t2.inputs.length.should.equal(2);
         t2.outputs.length.should.equal(2);
-        t2.outputs[0].satoshis.should.equal(1200);
+        t2.outputs[0].satoshis.should.equal(5460);
       });
       it('should build a tx correctly (BIP44)', function() {
         var toAddress = 'msj42CCGruhRsFrGATiUuh25dtxYtnpbTx';
@@ -527,7 +527,7 @@ describe('client API', function() {
           version: '2.0.0',
           inputs: utxos,
           toAddress: toAddress,
-          amount: 1200,
+          amount: 5460,
           changeAddress: {
             address: changeAddress
           },
@@ -560,7 +560,7 @@ describe('client API', function() {
           version: '2.0.0',
           inputs: utxos,
           toAddress: toAddress,
-          amount: 1200,
+          amount: 5460,
           changeAddress: {
             address: changeAddress
           },
@@ -636,11 +636,11 @@ describe('client API', function() {
           inputs: utxos,
           outputs: [{
             toAddress: toAddress,
-            amount: 800,
+            amount: 8000,
             message: 'first output'
           }, {
             toAddress: toAddress,
-            amount: 900,
+            amount: 9000,
             message: 'second output'
           }],
           changeAddress: {
@@ -672,10 +672,10 @@ describe('client API', function() {
           type: 'external',
           outputs: [{
             "toAddress": "18433T2TSgajt9jWhcTBw4GoNREA6LpX3E",
-            "amount": 700,
+            "amount": 7000,
             "script": "512103ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff210314a96cd6f5a20826070173fe5b7e9797f21fc8ca4a55bcb2d2bde99f55dd352352ae"
           }, {
-            "amount": 600,
+            "amount": 6000,
             "script": "76a9144d5bd54809f846dc6b1a14cbdd0ac87a3c66f76688ac"
           }, {
             "amount": 0,
@@ -718,9 +718,9 @@ describe('client API', function() {
           inputs: utxos,
           type: 'external',
           outputs: [{
-            "amount": 700,
+            "amount": 7000,
           }, {
-            "amount": 600,
+            "amount": 6000,
             "script": "76a9144d5bd54809f846dc6b1a14cbdd0ac87a3c66f76688ac"
           }, {
             "amount": 0,
@@ -768,11 +768,11 @@ describe('client API', function() {
           inputs: utxos,
           outputs: [{
             toAddress: toAddress,
-            amount: 800,
+            amount: 8000,
             message: 'first output'
           }, {
             toAddress: toAddress,
-            amount: 900,
+            amount: 9000,
             message: 'second output'
           }],
           changeAddress: {
@@ -805,7 +805,7 @@ describe('client API', function() {
         var txp = {
           inputs: utxos,
           toAddress: toAddress,
-          amount: 1200,
+          amount: 5460,
           changeAddress: {
             address: changeAddress
           },
@@ -830,7 +830,7 @@ describe('client API', function() {
         var txp = {
           inputs: utxos,
           toAddress: toAddress,
-          amount: 1200,
+          amount: 5460,
           changeAddress: {
             address: changeAddress
           },
@@ -856,11 +856,11 @@ describe('client API', function() {
           inputs: utxos,
           outputs: [{
             toAddress: toAddress,
-            amount: 800,
+            amount: 8000,
             message: 'first output'
           }, {
             toAddress: toAddress,
-            amount: 900,
+            amount: 9000,
             message: 'second output'
           }],
           changeAddress: {
@@ -888,10 +888,10 @@ describe('client API', function() {
           inputs: utxos,
           type: 'external',
           outputs: [{
-            "amount": 700,
+            "amount": 7000,
             "script": "512103ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff210314a96cd6f5a20826070173fe5b7e9797f21fc8ca4a55bcb2d2bde99f55dd352352ae"
           }, {
-            "amount": 600,
+            "amount": 6000,
             "script": "76a9144d5bd54809f846dc6b1a14cbdd0ac87a3c66f76688ac"
           }, {
             "amount": 0,
@@ -923,11 +923,11 @@ describe('client API', function() {
           inputs: utxos,
           outputs: [{
             toAddress: toAddress,
-            amount: 800,
+            amount: 8000,
             message: 'first output'
           }, {
             toAddress: toAddress,
-            amount: 900,
+            amount: 9000,
             message: 'second output'
           }],
           changeAddress: {
