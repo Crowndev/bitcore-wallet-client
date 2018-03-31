@@ -45,7 +45,7 @@
     "superagent": "^3.4.1"
   },
   "devDependencies": {
-    "bitcore-wallet-service-crown": "0.1.2",
+    "bitcore-wallet-service-crown": "0.1.3",
     "browserify": "^13.1.0",
     "chai": "^1.9.1",
     "coveralls": "^2.11.2",
